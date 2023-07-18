@@ -4,8 +4,9 @@
   "description": "live chatting using socket io ",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server",
+    "server": "nodemon server.js",
     "start": "node server",
+    "build": "npm i",
     "client": "npm start --prefix client",
     "project": "concurrently \"npm run server\" \"npm run client\""
   },
